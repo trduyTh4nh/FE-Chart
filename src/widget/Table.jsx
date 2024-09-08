@@ -24,10 +24,10 @@ const TableComponent = () => {
         <table className="w-full border-collapse text-left">
             <thead>
                 <tr>
-                    <th className="bg-teal-300 text-white p-3 border border-gray-300">Tên danh mục</th>
-                    <th className="bg-teal-300 text-white p-3 text-center border border-gray-300 font-bold">Ngày bắt đầu</th>
-                    <th className="bg-teal-300 text-white p-3 text-center border border-gray-300 font-bold">Ngày kết thúc</th>
-                    <th className="bg-teal-300 text-white p-3 text-center border border-gray-300 font-bold">Tăng/Giảm (%)</th>
+                    <th className="bg-[#6ECEB2] text-white p-3 border border-gray-300">Tên danh mục</th>
+                    <th className="bg-[#6ECEB2] text-white p-3 text-center border border-gray-300 font-bold">Ngày bắt đầu</th>
+                    <th className="bg-[#6ECEB2] text-white p-3 text-center border border-gray-300 font-bold">Ngày kết thúc</th>
+                    <th className="bg-[#6ECEB2] text-white p-3 text-center border border-gray-300 font-bold">Tăng/Giảm (%)</th>
                 </tr>
             </thead>
             <tbody>

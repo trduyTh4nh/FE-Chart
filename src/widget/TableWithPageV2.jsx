@@ -47,7 +47,7 @@ const TableWithPageComponentV2 = ({ columns }) => {
                             {headerGroup.headers.map((column) => (
                                 <th
                                     {...column.getHeaderProps()}
-                                    className="bg-teal-300 text-white p-3 border border-gray-300 text-center"
+                                    className="bg-[#6ECEB2] text-white p-3 border border-gray-300 text-center"
                                     key={column.id}
                                 >
                                     {column.render("Header")}
@@ -92,6 +92,7 @@ const TableWithPageComponentV2 = ({ columns }) => {
                     containerClassName={"flex space-x-2"}
                     activeClassName={"text-orange-400"}
                     pageClassName={"px-3 py-1 rounded"}
+                    pageLinkClassName="font-bold"
                     activeLinkClassName={"text-orange-400 font-bold"}
                     previousClassName={`px-1 py-1 rounded ${currentPage === 0 ? "opacity-50 bg-gray-400" : "bg-orange-400"}`}
                     nextClassName={`px-1 py-1 rounded ${currentPage + 1 === pageCount ? "opacity-50 bg-gray-400" : "bg-orange-400"}`}

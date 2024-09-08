@@ -110,7 +110,7 @@ const CatalogComponent = () => {
         <table className="w-full border-collapse text-left">
             <thead>
                 <tr>
-                    <th colSpan="2" className="bg-teal-300 text-white p-3 border border-gray-300 text-cen">Thay đổi của giá trị danh mục</th>
+                    <th colSpan="2" className="bg-[#6ECEB2] text-white p-3 border border-gray-300 text-cen">Thay đổi của giá trị danh mục</th>
                 </tr>
             </thead>
             <tbody className="">
